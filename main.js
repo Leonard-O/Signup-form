@@ -4,11 +4,6 @@ const logIn = document.querySelector('#logIn');
 const btn = document.querySelector('#btn');
 const create = document.querySelector('#create');
 
-const btnToggle = () => {
-	signUp.style.display = 'none';
-	signIn.style.display = 'flex';
-};
-
 logIn.addEventListener('click', () => {
 	signUp.style.display = 'none';
 	signIn.style.display = 'flex';
